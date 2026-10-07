@@ -17,13 +17,13 @@
       "size": [320, 220],
       "properties": {},
       "widgets_values": [
-        "Hello! <laugh> This is Supertonic-3 speaking.",
-        "neutral",
+        "I hate you.",
+        "angry",
         "en",
         1.0,
         8,
         "M1",
-        0.5,
+        0.8,
         false
       ]
     },
@@ -36,9 +36,9 @@
       "widgets_values": [
         true,
         true,
-        false,
-        0,
+        true,
         1.0,
+        0.95,
         false
       ]
     },
@@ -63,8 +63,8 @@
   "config": {},
   "extra": {
     "workflow_info": {
-      "name": "Supertonic Basic TTS",
-      "description": "Loader → TTS → Effects → SaveAudio. Select a preset voice. Feeling and emotion_intensity are workflow metadata; Supertonic does not apply emotion conditioning."
+      "name": "Supertonic Feelings",
+      "description": "Requested feeling: angry, emotion_intensity: 0.8. These controls are workflow metadata; Supertonic does not apply emotion conditioning to audio."
     }
   },
   "version": 0.4
